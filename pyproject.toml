@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Meritum_CAT"
+dynamic = ["version"]
+description = "Scientific Platform for Computerized Adaptive Testing, Psychometric Modeling and Assessment Simulation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "GPL-3.0-only" }
+authors = [{ name = "Keidy Lucía Gómez Otero" }, { name = "Francisco Javier Burgos Flórez" }]
+keywords = ["psychometrics", "item response theory", "computerized adaptive testing", "monte carlo", "simulation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.26",
+    "scipy>=1.11",
+    "matplotlib>=3.8",
+    "PySide6>=6.6",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pyinstaller>=6", "pillow>=10"]
+
+[project.gui-scripts]
+Meritum_CAT = "meritum_cat.gui.app:main"
+
+[tool.setuptools.dynamic]
+version = { attr = "meritum_cat.__version__" }
+
+[tool.setuptools.packages.find]
+include = ["meritum_cat*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-p no:cacheprovider"

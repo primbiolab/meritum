@@ -1,0 +1,47 @@
+{
+  "generator": "meritum_cat.datasets.generate_synthetic_bank",
+  "meritum_cat_version": "1.0.0",
+  "note": "Synthetic, simulated item banks for experimentation. Not real items; not from any real test or institution.",
+  "datasets": [
+    {
+      "file": "synthetic_bank_100_2PL.csv",
+      "n_items": 100,
+      "model": "2PL",
+      "seed": 2026,
+      "synthetic": true,
+      "sha256": "7f1675a9c9c1d7dd753a25cac2f66aed14fff3c5a621be26ab246ed815262bb0"
+    },
+    {
+      "file": "synthetic_bank_500_1PL.csv",
+      "n_items": 500,
+      "model": "1PL",
+      "seed": 2026,
+      "synthetic": true,
+      "sha256": "492a4971e27ecbab264688195d310bc764bbe801d77c2865b30711f1dad88286"
+    },
+    {
+      "file": "synthetic_bank_500_2PL.csv",
+      "n_items": 500,
+      "model": "2PL",
+      "seed": 2026,
+      "synthetic": true,
+      "sha256": "cedfa5e1a89d935052db54b9d550217a8a19444c2b35c22f0b434a11d0dad69b"
+    },
+    {
+      "file": "synthetic_bank_500_3PL.csv",
+      "n_items": 500,
+      "model": "3PL",
+      "seed": 2026,
+      "synthetic": true,
+      "sha256": "07e1da7826f5217f810be4f8c2b1e3a2e7d6722b47ed02bda1f8a17d84c749c4"
+    },
+    {
+      "file": "synthetic_bank_1000_3PL.csv",
+      "n_items": 1000,
+      "model": "3PL",
+      "seed": 2026,
+      "synthetic": true,
+      "sha256": "2f0407988a242f79e59263afe120e0a628f9427eee2fa448ce92aeae0751545d"
+    }
+  ]
+}

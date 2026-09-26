@@ -1,0 +1,4 @@
+item_id,a,b,c,category,subcategory,tags,question,alternatives,correct,source,active,notes
+EX-001,1.20,-0.50,0.20,D1,D1.1,demo;template,Example question text,Option A|Option B|Option C|Option D,B,template,1,Synthetic example row
+EX-002,0.85,0.30,0.15,D2,D2.1,demo,,,,template,1,
+EX-003,1.60,1.10,0.00,D1,D1.2,,,,,template,0,Inactive item (not administered)

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Si utiliza este software, por favor cítelo como se indica a continuación. / If you use this software, please cite it as below."
+type: software
+title: "Meritum_CAT: Scientific Platform for Computerized Adaptive Testing, Psychometric Modeling and Assessment Simulation"
+version: "1.0.0"
+date-released: "2026-09-25"
+authors:
+  - family-names: "Gómez Otero"
+    given-names: "Keidy Lucía"
+  - family-names: "Burgos Flórez"
+    given-names: "Francisco Javier"
+    email: "fjburgosf@gmail.com"
+license: GPL-3.0-only
+repository-code: "https://github.com/primbiolab/Meritum_CAT"
+abstract: >-
+  Meritum_CAT is a bilingual (Spanish/English) desktop scientific platform for research on
+  computerized adaptive testing based on item response theory. It implements the 1PL/Rasch, 2PL and
+  3PL models, MLE, MAP and EAP ability estimation, maximum Fisher information, random, randomesque,
+  Kullback-Leibler and Sympson-Hetter item selection, configurable stopping rules, content balancing,
+  item exposure analysis, reproducible Monte Carlo simulation and ten predefined computational
+  experiments, with scientific visualization and exportable, reproducible experiment configurations.
+keywords:
+  - psychometrics
+  - item response theory
+  - computerized adaptive testing
+  - Monte Carlo simulation
+  - reproducibility

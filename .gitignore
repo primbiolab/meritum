@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Pruebas y cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Compilaciones y distribución (la aplicación se publica como archivo de un Release)
+build/
+dist/
+
+# Caché y registro que crea el programa al ejecutarse
+cache/
+logs/
+*.log
+
+# Temporales
+*.tmp
+*.bak
+*.old
+~$*
+
+# Secretos y configuración local
+.env
+.env.*
+
+# Editor y sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
