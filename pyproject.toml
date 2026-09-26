@@ -8,8 +8,11 @@ dynamic = ["version"]
 description = "Scientific Platform for Computerized Adaptive Testing, Psychometric Modeling and Assessment Simulation"
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "GPL-3.0-only" }
-authors = [{ name = "Keidy Lucía Gómez Otero" }, { name = "Francisco Javier Burgos Flórez" }]
+authors = [
+    { name = "Keidy Lucía Gómez Otero" },
+    { name = "Francisco Javier Burgos Flórez" },
+    { name = "Juan Guillermo Popayán Hernández" },
+]
 keywords = ["psychometrics", "item response theory", "computerized adaptive testing", "monte carlo", "simulation"]
 classifiers = [
     "Programming Language :: Python :: 3",

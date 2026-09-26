@@ -97,3 +97,17 @@ def test_status_retranslated_after_run(window):
         planted.setParent(None)
         planted.deleteLater()
         window.set_language("es")
+
+
+@pytest.mark.parametrize("lang", ["es", "en"])
+def test_about_dialog_lists_all_authors(window, lang):
+    """«Acerca de» muestra los tres autores y la versión en ambos idiomas."""
+    from meritum_cat import __authors__, __version__
+    from meritum_cat.gui.dialogs import AboutDialog
+    window.set_language(lang)
+    dialog = AboutDialog(window)
+    text = " ".join(label.text() for label in dialog.findChildren(QLabel))
+    dialog.deleteLater()
+    window.set_language("es")
+    assert all(name in text for name in __authors__)
+    assert __version__ in text

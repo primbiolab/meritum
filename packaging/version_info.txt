@@ -18,7 +18,7 @@ VSVersionInfo(
          StringStruct('FileDescription', 'Meritum_CAT - Scientific Platform for Computerized Adaptive Testing'),
          StringStruct('FileVersion', '1.0.0'),
          StringStruct('InternalName', 'Meritum_CAT'),
-         StringStruct('LegalCopyright', 'Copyright (C) 2026 Keidy Lucía Gómez Otero, Francisco Javier Burgos Flórez. GPL-3.0'),
+         StringStruct('LegalCopyright', 'Copyright (C) 2026 Keidy Lucía Gómez Otero, Francisco Javier Burgos Flórez, Juan Guillermo Popayán Hernández.'),
          StringStruct('OriginalFilename', 'Meritum_CAT.exe'),
          StringStruct('ProductName', 'Meritum_CAT'),
          StringStruct('ProductVersion', '1.0.0')])

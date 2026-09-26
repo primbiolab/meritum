@@ -17,7 +17,6 @@ QT_TRANSLATIONS = Path(PySide6.__file__).parent / "translations"
 datas = [
     (str(ROOT / "resources" / "datasets"), "resources/datasets"),
     (str(ROOT / "resources" / "icons"), "resources/icons"),
-    (str(ROOT / "LICENSE"), "."),
 ]
 # Traducciones propias de Qt (menús contextuales y diálogos estándar en español).
 for name in ("qtbase_es.qm", "qtbase_en.qm"):

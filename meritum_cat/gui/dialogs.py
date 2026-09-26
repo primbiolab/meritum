@@ -9,7 +9,7 @@ from PySide6.QtWidgets import (
     QVBoxLayout, QHBoxLayout, QHeaderView,
 )
 
-from meritum_cat import (__app_name__, __app_subtitle__, __authors__, __license__,
+from meritum_cat import (__app_name__, __app_subtitle__, __authors__,
                          __organization__, __version__)
 from meritum_cat.models import Item
 from meritum_cat.i18n import get_translator
@@ -148,8 +148,7 @@ class AboutDialog(QDialog):
             f"<p style='margin-top:2px'><b>{tr('about.version', v=__version__)}</b></p>"
             f"<p><i>{__app_subtitle__}</i></p>"
             f"<p>{tr('about.description')}</p>"
-            f"<p>{tr('about.author', a=' · '.join(__authors__))}<br>{__organization__}<br>"
-            f"{tr('about.license', l=__license__)}</p>"
+            f"<p>{tr('about.author', a=' · '.join(__authors__))}<br>{__organization__}</p>"
             f"<p><b>{tr('about.components')}:</b><br>{components}</p>"
             f"<p style='color:#52514e'>{tr('about.data_note')}</p>"
         )

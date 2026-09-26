@@ -10,7 +10,8 @@ authors:
   - family-names: "Burgos Flórez"
     given-names: "Francisco Javier"
     email: "fjburgosf@gmail.com"
-license: GPL-3.0-only
+  - family-names: "Popayán Hernández"
+    given-names: "Juan Guillermo"
 repository-code: "https://github.com/primbiolab/Meritum_CAT"
 abstract: >-
   Meritum_CAT is a bilingual (Spanish/English) desktop scientific platform for research on

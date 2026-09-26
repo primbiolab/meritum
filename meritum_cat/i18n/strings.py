@@ -669,7 +669,6 @@ _add({
     "about.title": ("Acerca de Meritum_CAT", "About Meritum_CAT"),
     "about.version": ("Versión {v}", "Version {v}"),
     "about.author": ("Autores: {a}", "Authors: {a}"),
-    "about.license": ("Licencia: {l}", "License: {l}"),
     "about.description": (
         "Software científico para la investigación en psicometría, Teoría de Respuesta al Ítem, test adaptativo computarizado y simulación Monte Carlo de evaluaciones. Funciona sin conexión a Internet.",
         "Scientific software for research in psychometrics, Item Response Theory, computerized adaptive testing and Monte Carlo simulation of assessments. Works without an Internet connection.",

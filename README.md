@@ -4,7 +4,7 @@
 
 *Plataforma científica para test adaptativo computarizado, modelamiento psicométrico y simulación de evaluaciones*
 
-![Python](https://img.shields.io/badge/Python-3.12-blue) ![Platform](https://img.shields.io/badge/Windows-x64-lightgrey) ![License](https://img.shields.io/badge/License-GPL--3.0-green)
+![Python](https://img.shields.io/badge/Python-3.12-blue) ![Platform](https://img.shields.io/badge/Windows-x64-lightgrey)
 
 Meritum_CAT es un software científico de escritorio, bilingüe (español / inglés), para investigar el
 **test adaptativo computarizado (CAT)** basado en la **Teoría de Respuesta al Ítem (IRT)**. Permite
@@ -81,7 +81,7 @@ Meritum_CAT\Meritum_CAT.exe --self-test salida_autoprueba
 ## Compilación del ejecutable / Building the executable
 
 ```bash
-powershell -ExecutionPolicy Bypass -File packaginguild_exe.ps1
+powershell -ExecutionPolicy Bypass -File packaging\build_exe.ps1
 ```
 
 El script instala las dependencias fijadas, corre las pruebas, construye con PyInstaller la carpeta de
@@ -151,8 +151,12 @@ examples/          ejemplos de uso de la API y banco de ejemplo
 scripts/           generación de los bancos sintéticos incluidos
 resources/         bancos sintéticos e icono
 packaging/         especificación de PyInstaller, construcción del ejecutable y del zip
-manuales/          descripción del software, manual técnico y manual de usuario (DOCX)
 ```
+
+## Documentación / Documentation
+
+La descripción del software, el manual técnico y el manual de usuario se distribuyen por separado del
+código fuente; en el repositorio están en la carpeta `manuales/`.
 
 ## Datos / Data
 
@@ -162,7 +166,7 @@ institución. Para trabajar con datos reales, importe su propio banco calibrado.
 
 ## Cómo citar / How to cite
 
-Gómez Otero, K. L., & Burgos Flórez, F. J. (2026). *Meritum_CAT: Scientific Platform for Computerized
+Gómez Otero, K. L., Burgos Flórez, F. J., & Popayán Hernández, J. G. (2026). *Meritum_CAT: Scientific Platform for Computerized
 Adaptive Testing, Psychometric Modeling and Assessment Simulation* (versión 1.0.0) [Software].
 https://github.com/primbiolab/Meritum_CAT
 
@@ -170,10 +174,10 @@ Ver [`CITATION.cff`](CITATION.cff).
 
 ## Autores / Authors
 
-Keidy Lucía Gómez Otero y Francisco Javier Burgos Flórez.
+Keidy Lucía Gómez Otero, Francisco Javier Burgos Flórez y Juan Guillermo Popayán Hernández.
 Contacto: fjburgosf@gmail.com
 
-## Licencia / License
+## Componentes de terceros / Third-party components
 
-GPL-3.0. Ver [`LICENSE`](LICENSE). Usa NumPy, SciPy y Matplotlib (licencias BSD/compatibles) y
-PySide6 (Qt for Python, LGPLv3).
+Usa NumPy, SciPy y Matplotlib (licencias BSD/compatibles) y PySide6 (Qt for Python, LGPLv3), cada uno bajo su
+propia licencia.

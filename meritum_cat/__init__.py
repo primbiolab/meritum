@@ -13,11 +13,10 @@ __app_subtitle__ = (
     "Scientific Platform for Computerized Adaptive Testing, "
     "Psychometric Modeling and Assessment Simulation"
 )
-__authors__ = ("Keidy Lucía Gómez Otero", "Francisco Javier Burgos Flórez")
+__authors__ = ("Keidy Lucía Gómez Otero", "Francisco Javier Burgos Flórez", "Juan Guillermo Popayán Hernández")
 __author__ = "; ".join(__authors__)
 __contact__ = "fjburgosf@gmail.com"
 __organization__ = "Primbiolab"
-__license__ = "GPL-3.0"
 
 __all__ = [
     "__version__",
@@ -27,5 +26,4 @@ __all__ = [
     "__authors__",
     "__contact__",
     "__organization__",
-    "__license__",
 ]
